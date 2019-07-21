@@ -19,7 +19,7 @@ HashTable.prototype.insert = function(k, v) {
       if (storInd[i][0] === k) {
         storInd[i] = [k, v];
       } else {
-        storInd.push([k,v]);
+        storInd.push([k, v]);
       }
     }
   }
